@@ -1,0 +1,60 @@
+/* *{
+    font-family:"Courier New";
+    background-color:lightgrey;
+} */
+
+
+/* h1{
+    color:blueviolet;
+    background-color: lightpink;
+    text-align:center;
+    text-decoration:red underline;
+    letter-spacing:10px;
+    font-size:50px;
+    font-family:arial;
+    
+    
+} */
+
+
+/* h1{
+    color:blueviolet;
+}
+h3{
+    color:greenyellow;
+} */
+
+
+
+
+/* h1,h3{
+    color:blueviolet;
+
+} */
+/* 
+
+
+
+<!-- ID selector --> */
+#login{
+    background-color:white;
+
+}
+#signup{
+    background-color:red;
+    color:white;
+
+}
+
+
+/* class selector */
+/* class=should be used in html file is same of that group  */
+
+.upvote{
+    color:red;
+    background-color: aliceblue;
+}
+
+
+
+ 
