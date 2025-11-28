@@ -56,5 +56,44 @@ h3{
 }
 
 
-
+/* descendent selector */
+p a{
+    color:blueviolet;
+    background-color: yellow;
+}
  
+nav ul li a{
+    color:green;
+}
+
+
+/* adjacent sibling selector */
+p + h3{
+    text-decoration: underline;;
+}
+
+.upvote + button{
+    background-color: lightgreen;
+    color:darkgreen;
+}
+
+
+
+/* child combinator */
+div > input{
+    background-color: aqua;
+    
+}
+
+
+
+/* Attribute selector */
+input[type="text"]{
+    color: red;
+}
+input[type="password"]{
+    color: green;
+}
+input[type]{
+    background-color: blue;
+}
